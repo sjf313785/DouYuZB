@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,49 +13,13 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wX9-CH-uNy">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                            </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="gsH-J7-aqL">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="0Tv-bO-xJU"/>
-                            <constraint firstItem="gsH-J7-aqL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-20" id="0ux-07-1y0"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4hn-m0-kQ2"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottomMargin" id="553-Eq-eDA"/>
-                            <constraint firstAttribute="bottom" secondItem="wX9-CH-uNy" secondAttribute="bottom" id="Bug-Nb-NUR"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DjG-AM-RKi"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ema-3x-idu"/>
-                            <constraint firstAttribute="bottom" secondItem="wX9-CH-uNy" secondAttribute="bottom" id="FXI-9q-Hki"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="K33-Up-n16"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LLb-B5-z0j"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Lk5-8x-gKH"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PgV-3w-JP8"/>
-                            <constraint firstAttribute="trailing" secondItem="wX9-CH-uNy" secondAttribute="trailing" id="Pky-BN-s6p"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="20" id="PlB-oZ-9Df"/>
-                            <constraint firstAttribute="trailing" secondItem="wX9-CH-uNy" secondAttribute="trailing" id="QBL-Ba-dv0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gsH-J7-aqL" secondAttribute="bottom" id="UdQ-2J-rTE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gsH-J7-aqL" secondAttribute="trailing" id="XA6-Pe-jv5"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fUe-N9-vPl"/>
-                            <constraint firstItem="gsH-J7-aqL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="i0i-nS-yr4"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="20" id="iYV-WQ-Iz4"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="uzD-vb-XDo"/>
-                            <constraint firstItem="wX9-CH-uNy" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="yNn-PJ-KET"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="launchImg.png" width="1242" height="2208"/>
-    </resources>
 </document>
